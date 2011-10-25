@@ -17,8 +17,9 @@ class Controller_Project extends Controller_Template_Full {
 
     }
 
-    public function action_edit($id)
+    public function action_edit()
     {
+        $id = $this->request->param('id');
         $this->template->content = "action edit - id: " . $id;
     }
 
