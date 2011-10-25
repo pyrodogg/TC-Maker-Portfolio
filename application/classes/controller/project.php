@@ -14,7 +14,7 @@ class Controller_Project extends Controller_Template_Full {
 
     public function action_add()
     {
-
+        
     }
 
     public function action_edit()
