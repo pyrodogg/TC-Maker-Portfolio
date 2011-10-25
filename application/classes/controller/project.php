@@ -17,9 +17,9 @@ class Controller_Project extends Controller_Template_Full {
 
     }
 
-    public function action_edit()
+    public function action_edit($id)
     {
-
+        $this->template->content = "action edit - id: " . $id;
     }
 
     public function action_archive()
