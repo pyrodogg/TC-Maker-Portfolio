@@ -126,10 +126,7 @@ Route::set('error', 'error/<action>(/<origuri>(/<message>))',
 		'action'	 => 'index'
 	));
 
-Route::set('default', '(<controller>(/<id>(.<extension>)(/<action>)))',
-    array(
-            'extension' => '(svg|html|pdf)',
-    ))
+Route::set('default', '(<controller>(/<id>(/<action>)))')
 	->defaults(array(
 		'controller' => 'main',
 		'action'     => 'view',
