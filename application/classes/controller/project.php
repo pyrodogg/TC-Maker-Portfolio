@@ -9,34 +9,32 @@ class Controller_Project extends Controller_Template_Full {
 
     public function action_view()
     {
-        $id = $this->request->param('id');
-        $this->template->content = "Controller " . $this->request->controller() .
-                " Action: " . $this->request->action() .
-                " ID: " . $id;
+        $this->_actionTest();
     }
 
     public function action_add()
     {
-        $id = $this->request->param('id');
-        $this->template->content = "Controller: " . $this->request->controller() .
-                " Action: " . $this->request->action() .
-                " ID: " . $id;
+        $this->_actionTest();
     }
 
     public function action_edit()
     {
-        $id = $this->request->param('id');
-        $this->template->content = "action edit - id: " . $id;
+        $this->_actionTest();
     }
 
     public function action_archive()
     {
-
+        $this->_actionTest();
     }
 
     public function action_generate()
     {
-        
+        $this->_actionTest();
+    }
+
+    private function _actionTest(){
+        $id = $this->request->param('id');
+        $this->template->content = "action edit - id: " . $id;
     }
 }
 
