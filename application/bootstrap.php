@@ -126,6 +126,14 @@ Route::set('error', 'error/<action>(/<origuri>(/<message>))',
 		'action'	 => 'index'
 	));
 
+Route::set('add', '(<controller>(/<action>))',
+    array(
+        'action' => 'add'
+    ))
+    ->defaults(array(
+                   'controller' => 'main',
+                   'action' => 'add',
+     ));
 Route::set('default', '(<controller>(/<id>(/<action>)))')
 	->defaults(array(
 		'controller' => 'main',
