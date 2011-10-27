@@ -24,4 +24,4 @@
 	url = git://github.com/kohana/unittest.git
 [submodule "modules/Auto-Modeler"]
 	path = modules/Auto-Modeler
-	url = https://github.com/zombor/Auto-Modeler.git
+	url = git://github.com/zombor/Auto-Modeler.git
