@@ -22,3 +22,6 @@
 [submodule "modules/unittest"]
 	path = modules/unittest
 	url = git://github.com/kohana/unittest.git
+[submodule "modules/Auto-Modeler"]
+	path = modules/Auto-Modeler
+	url = https://github.com/zombor/Auto-Modeler.git
