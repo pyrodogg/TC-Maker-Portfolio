@@ -34,7 +34,9 @@ class Controller_Project extends Controller_Template_Full {
 
     private function _actionTest(){
         $id = $this->request->param('id');
-        $this->template->content = "action edit - id: " . $id;
+        $this->template->content = "Controller: " . $this->request->controller() . "<br />" .
+                "Action: " . $this->request->action() . "<br />" .
+                "ID: " . $id;
     }
 }
 
