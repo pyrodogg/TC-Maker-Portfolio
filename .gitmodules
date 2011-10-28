@@ -25,3 +25,6 @@
 [submodule "modules/auto-modeler"]
 	path = modules/auto-modeler
 	url = git://github.com/zombor/Auto-Modeler.git
+[submodule "modules/uuid"]
+	path = modules/uuid
+	url = git://github.com/shadowhand/uuid.git
