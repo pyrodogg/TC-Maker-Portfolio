@@ -111,6 +111,7 @@ Kohana::modules(array(
 	 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	'menu'		  => MODPATH.'menu',
+    'uuid'        => MODPATH.'uuid',
 	));
 
 /**
